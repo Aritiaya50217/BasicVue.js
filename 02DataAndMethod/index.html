@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.Js Tutorial</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id="vue-app">
+        <!-- ดึงข้อความจาก message:"Hello World" มาแสดง 
+        <h3>{{message}}</h3>
+        <p>Language : {{language}}</p><hr>
+        -->
+        <h2>การเข้าถึงผ่าน Method</h2>
+        <h3>{{getMessage()}}</h3><hr>
+        <h2>การ Set ข้อความ</h2>
+        <h4>{{setMessage("Vue.js")}}</h4>
+
+    </div>
+    
+    <script src="./app.js" charset="utf-8"></script>
+</body>
+</html>

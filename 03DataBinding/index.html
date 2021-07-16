@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.Js Tutorial</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+    <div id="vue-app">
+        <h3>Message : {{message}}</h3>
+        <h3>Language : {{language}}</h3>
+        <p>Website : <a v-bind:href="website">link</a></p>
+        <input type="text" name="" v-bind:value="message">
+    </div>
+    
+    <script src="./app.js" charset="utf-8"></script>
+</body>
+</html>
